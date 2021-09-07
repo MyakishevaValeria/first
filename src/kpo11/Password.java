@@ -17,7 +17,7 @@ class Password {
     Scanner scanner = new Scanner(System.in);
 
 
-    void getPassword() {   
+    void getPassword() {   //метод для ввода пароля
         System.out.print("Введите ваше пароль: ");
         pass=scanner.next();
     }
